@@ -40,10 +40,11 @@ text-decoration: none;}*/
   text-underline-offset: 4px;
 }
 
-.header_link{
-  text-decoration: none;
+.header_link-list-free--first {
   list-style: none;
 }
+
+
 
 .header_logo{
 width: 148px;
@@ -180,7 +181,7 @@ gap: 25px;
 .card_about_cinema {
   width: 334px;
   height: 596px;
-  padding: 51px 40px 48px;
+  padding: 25px 40px 48px;
   position: relative;
   height: 100%;
   display: flex;
@@ -214,6 +215,7 @@ gap: 25px;
   background-image: url(./../images/card-lot-02.jpg);
 }
 
+
 .card_about_picture {
   width: 334px;
   height: 596px;
@@ -240,6 +242,8 @@ h3 {
   line-height: 120%;
   text-decoration-line: underline;
   text-transform: uppercase;
+  margin: 0;
+  margin: 0;
 }
 
 .card_text {
@@ -251,6 +255,7 @@ h3 {
 line-height: 1.2;
 position: relative;
 z-index: 1;
+margin-top: auto;
 
 }
 
@@ -264,6 +269,7 @@ z-index: 1;
   line-height: 23.48px;
   margin-left: 64px;
 }
+
 .about{
 display: grid;
 grid-template-columns: 334px 1fr;
