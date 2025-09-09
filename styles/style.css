@@ -5,48 +5,23 @@
   justify-items: center;
   padding: 92px 50px 96px 50px;
 }
-/*
-.header_menu_{
-display: flex;
-gap: 33px;
-list-style: circle;
+
+.header_link-list-free--first a{
+  text-decoration: none;
 }
 
-.header_menu_linkt-list {
-list-style: circle;
-text-decoration: underline;
-text-underline-offset: 4px;}
+.header_link-list-free--first {
+  list-style: none}
 
-.header_link-list-free{
-text-decoration: none;
-list-style:none;
-}
-
-.header_link{
-font-weight:400;
-font-size: 18px;
-color:
-#000000;
-text-decoration: none;}*/
 .header_menu_link-list{
   display: flex;
   gap: 33px;
   list-style: circle;
+  font-size: 18px;
 }
-
-.header_menu_link-list_free{
-  list-style:circle;
-  text-decoration: underline;
-  text-underline-offset: 4px;
-}
-
-.header_link-list-free--first {
-  list-style: none;
-}
-
-
 
 .header_logo{
+  display: grid;
 width: 148px;
 height: 105px;
 }
@@ -57,12 +32,7 @@ height: 105px;
   height: 105px;
 
 }
-/*
-.address_menu{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}*/
+
 .address {
   font-weight: 400;
   line-height: 1.35;
@@ -75,7 +45,9 @@ height: 105px;
   font-style: normal;
   max-width: 240px;
   padding-right: 30px;
+  padding-bottom: 2px;
 }
+
 .cover{
         color:#ffffff;
         position: relative;
@@ -164,12 +136,10 @@ h2 {
   
 }
 
-.container_1 {
+.container {
 width: 1052px;
-height: 723px;
-
-  
 }
+
 .cards {
 width: 1052px;
 height: 563px;
@@ -185,7 +155,6 @@ gap: 25px;
   position: relative;
   height: 100%;
   display: flex;
-  
   flex-direction: column;
   z-index: 1;
   justify-content: space-between;
@@ -200,7 +169,7 @@ gap: 25px;
 .card_about_book {
  width: 334px;
   height: 596px;
-  padding: 51px 40px 48px;
+  padding: 48px 40px ;
   position: relative;
   height: 100%;
   display: flex;
