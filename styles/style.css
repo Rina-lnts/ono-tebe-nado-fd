@@ -47,7 +47,6 @@ width: 148px;
   padding-bottom: 2px;
 }
 
-
 .cover{
         color:#ffffff;
         position: relative;
@@ -60,6 +59,18 @@ width: 148px;
         background-size: cover;
         background-repeat: no-repeat;
       }
+      
+
+.overlay {
+    position: absolute; /* Позиционируем оверлей абсолютно */
+    top: 0; /* Начинаем с верхнего края */
+    left: 0; /* Начинаем с левого края */
+    width: 100%; /* Занимаем всю ширину родителя */
+    height: 100%; /* Занимаем всю высоту родителя */
+    background-color: rgba(0, 0, 0, 0.6); /* Цвет оверлея */
+    z-index: 1; /* Устанавливаем z-index выше, чем у cover_title и cover_description */
+}
+
 
 .cover_title{
 letter-spacing: 0.3em;
@@ -71,14 +82,14 @@ text-transform: uppercase;
 line-height: 1.15;
 row-gap: 20px;
 margin-bottom: 106px;;
+position: relative;
+z-index: 2;
 }
 
 .cover_description{
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  position: relative;
-  bottom: 61px;
+  align-items: flex-end;
   gap: 107px;
 }
 
@@ -86,17 +97,25 @@ margin-bottom: 106px;;
   color: #fff;
   z-index: 1;
   font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0%;
   text-transform: uppercase;
   word-spacing: 18px;
 }
 
 .cover_button{
-  border: 1px solid #fff;
-  color: #fff;
-  font-weight: normal;
-  text-transform: uppercase;
-  background-color: transparent;
-padding: 12px 30px;
+  width: 256px;
+  height: 51px;
+  border: 1px solid rgba(255,255, 255,1);
+background-color: transparent;
+font-weight: 500;
+font-style: medium;
+font-size: 22px;
+text-align: center;
+text-transform: uppercase;
+color: rgba(255,255,255,1);
+z-index: 2;
+  
 
 }
 
@@ -199,6 +218,7 @@ h3 {
   text-transform: uppercase;
   margin: 0;
   margin: 0;
+  z-index: 2;
 }
 
 .card_text {
