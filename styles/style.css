@@ -256,6 +256,9 @@ z-index: 1;
 margin-top: auto;
 }
 
+.card_text_active{
+margin-top: -20px;
+}
 
 .see_more {
   display: block;
@@ -265,11 +268,13 @@ margin-top: auto;
   font-size: 20px;
   font-weight: 400;
   line-height: 23.48px;
-  margin-left: 64px;
+  margin-left: 40px;
 }
 
 .about{
 display: grid;
+width: 1052px;
+height: 595px;
 grid-template-columns: 334px 1fr;
 gap: 25px;
 align-items: start;
