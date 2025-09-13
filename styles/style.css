@@ -14,12 +14,19 @@
 .header_link-list-free--first {
   list-style: none}
 
+.header_menu{
+  justify-self: start;
+ 
+}
+
 .header_menu_link-list{
   display: flex;
   gap: 33px;
   list-style: circle;
   font-size: 18px;
  padding-left: 1px;
+ justify-self: start;
+ text-underline-offset: 4px;
 }
 
 .header_logo{
@@ -37,19 +44,33 @@ width: 148px;
 .address {
   font-weight: 400;
   line-height: 1.35;
-  display: flex;
   flex-direction: column;
   align-items: flex-start;
+  padding-right: 30px;
+font-size: 18px;
+font-style: normal;
 }
 
 .header_address{
   justify-self: end;
-  display: flex;
-  flex-direction: column;
-  font-style: normal;
   max-width: 240px;
-  padding-right: 30px;
   padding-bottom: 2px;
+   text-underline-offset: 6px;
+}
+
+.address a {
+  color: inherit;
+}
+
+.address__phone,
+.address__mail {
+  margin-bottom: 0;
+  text-decoration: underline;
+}
+
+.address__text {
+  margin-top: 4px;
+  display: block;
 }
 
 .cover{
@@ -273,15 +294,7 @@ margin-top: -20px;
 
 .about{
 display: grid;
-width: 1052px;
-height: 595px;
-grid-template-columns: 334px 1fr;
-align-items: start;
-justify-items: start;
-width: 100%;
-padding: 0 ;
-
-}
+grid-template-columns: 334px 1fr;}
 
 .about__logo {
   width: 240px;
@@ -295,18 +308,18 @@ padding: 0 ;
 .about__logo-image {
   margin: auto;
   display: block;
-  width: 142px;
-  height: 113px;
+  width: 148px;
+  height: 114px;
 }
 
 
 .about__title {
-  margin-bottom: 30px; /* отступ снизу */
+  margin-bottom: 30px; 
   margin-top: 0;
   font-size: 2.5rem;
   font-weight: 700;
   line-height: 1.1;
-  margin: 2px -15px;
+  margin: 4px -14px;
 }
 
 
@@ -329,44 +342,23 @@ padding: 0 ;
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  width: 1100px;
-  min-height: 180px;
-  margin: 0 auto;
-  padding: 16px;
   box-sizing: border-box;
+  margin-top: 150px;
 }
 
-.address {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  font-style: normal;
-  font-size: 16px;
-  line-height: 1.4;
-  /* Можно добавить стили для spacing */
-  gap: 8px;
+.footer_address{
+  justify-self: start;
+  max-width: 300px;
+  margin-top: 30px; 
+  margin-left: 50px; 
+   text-underline-offset: 4px;
 }
 
-.address a {
-  color: inherit;
-  text-decoration: none;
-}
-
-.address__phone,
-.address__mail {
-  margin-bottom: 0;
-}
-
-.address__text {
-  margin-top: 4px;
-  display: block;
-}
 
 .footer__menu {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* чтобы меню было по центру */
 }
 
 .footer__menu-list {
@@ -379,13 +371,7 @@ padding: 0 ;
   gap: 8px;
 }
 
-.footer__menu-list-item {
-
-}
-
 .footer__menu-link {
-  color: inherit;
-  text-decoration: underline;
   font-size: 16px;
   text-align: center;
 }
