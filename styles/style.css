@@ -123,7 +123,6 @@
   z-index: 1;
   font-size: 22px;
   line-height: 28px;
-  letter-spacing: 0%;
   text-transform: uppercase;
   word-spacing: 18px;
 }
@@ -134,7 +133,6 @@
   border: 1px solid rgba(255, 255, 255, 1);
   background-color: transparent;
   font-weight: 500;
-  font-style: medium;
   font-size: 22px;
   text-align: center;
   text-transform: uppercase;
@@ -186,11 +184,10 @@
 }
 
 .lot {
-  padding: 40px 27px 173px;
-  font-size: 100px;
+  font-size: 40px;
   list-style: none;
   font-style: normal;
-  color: #ffffff;
+  color:#000;
   line-height: 115%;
   display: inline-block;
 }
@@ -301,6 +298,10 @@ h3 {
   height: 114px;
 }
 
+.about__column {
+
+}
+
 .about__title {
   font-size: 2.5rem;
   font-weight: 700;
@@ -363,7 +364,7 @@ h3 {
   text-align: center;
 }
 
-.footer__menu-link_active {
+.active {
   text-decoration: none;
 }
 
