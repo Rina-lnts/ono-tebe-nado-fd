@@ -234,7 +234,7 @@
   background-image: url(./../images/card-lot-03.jpg);
 }
 
-h3 {
+.subheading {
   color: white;
   padding: 20px 3px;
   font-size: 22px;
