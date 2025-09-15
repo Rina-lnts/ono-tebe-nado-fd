@@ -60,14 +60,12 @@
   color: inherit;
 }
 
-.address_phone,
-.address_mail {
+.address_contact  {
   margin-bottom: 0;
   text-decoration: underline;
 }
 
 .address_text {
-  margin-top: 4px;
   display: block;
 }
 
@@ -146,19 +144,18 @@
   width: 100%;
 }
 
-.aligned_text_left {
+.text_left {
   align-items: flex-start;
   width: 286px;
-  height: 115px;
 }
 
-.aligned_text_center {
+.text_center {
   text-align: center;
   display: inline-block;
   letter-spacing: 10px;
 }
 
-.aligned_text_right {
+.text_right {
   text-align: right;
   letter-spacing: 29px;
   display: inline-block;
@@ -172,7 +169,6 @@
 
 .lots_card_list {
   width: 1052px;
-  height: 720px;
 }
 
 .lots {
@@ -192,7 +188,7 @@
   display: inline-block;
 }
 
-h2 {
+.caption {
   padding-top: 179px;
   padding-bottom: 26px;
   padding-left: 40px;
@@ -280,6 +276,7 @@ h3 {
 .about {
   display: grid;
   grid-template-columns: 334px 1fr;
+  padding: 70px 1px;
 }
 
 .about_logo {
@@ -323,22 +320,20 @@ padding-right: 25px;
 .about_text p {
   margin: 0;
   font-size: 20px;
-  
 }
 
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   box-sizing: border-box;
-  margin-top: 130px;
+  margin-top: 80px;
 }
 
 .footer_address {
   justify-self: start;
-  max-width: 300px;
-  margin-top: 55px;
-  margin-left: 50px;
   text-underline-offset: 4px;
+  padding-left: 55px;
+  padding-top: 24px;
 }
 
 .footer_menu {
@@ -347,13 +342,14 @@ padding-right: 25px;
   align-items: center;
   text-underline-offset: 4px;
   line-height: 0.7;
+  margin: 0;
 }
 
 .footer_menu_list {
   list-style: none;
   display: flex;
   flex-direction: column;
-  align-items: center; /* текст по центру */
+  align-items: center; 
   gap: 8px;
   margin-top: 20px;
   margin-left: 2px;
