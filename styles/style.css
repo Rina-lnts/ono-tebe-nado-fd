@@ -8,9 +8,6 @@
 
 .header_links_list_item_no_bullit {
   text-decoration: none;
-}
-
-.header_links_list_item_no_bullit {
   list-style: none;
 }
 
@@ -60,7 +57,7 @@
   color: inherit;
 }
 
-.address_contact  {
+.address_contact {
   margin-bottom: 0;
   text-decoration: underline;
 }
@@ -216,7 +213,7 @@
 
 .lots_card_list_item {
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   justify-content: center;
   gap: 25px;
 }
@@ -284,7 +281,6 @@
 }
 
 .about_logo_image {
-  margin: auto;
   display: block;
   width: 148px;
   height: 114px;
@@ -347,7 +343,7 @@ padding-right: 25px;
   list-style: none;
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
   gap: 8px;
   margin-top: 20px;
   margin-left: 2px;
