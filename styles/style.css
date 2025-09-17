@@ -147,14 +147,12 @@
 
 .text_center {
   text-align: center;
-  display: inline-block;
   letter-spacing: 10px;
 }
 
 .text_right {
   text-align: right;
   letter-spacing: 29px;
-  display: inline-block;
   margin-right: -25px;
 }
 
@@ -196,9 +194,9 @@
 
 .card {
   width: 334px;
+  min-height: 596px;
   padding: 10px 40px 48px;
   position: relative;
-  height: 596px;
   display: flex;
   flex-direction: column;
   z-index: 1;
@@ -207,7 +205,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  gap: 30px;
 }
 
 .lots_card_list_item {
@@ -231,7 +228,7 @@
 
 .subheading {
   color: white;
-  padding: 35px 3px;
+  padding: 35px 0px;
   font-size: 22px;
   font-weight: 800;
   line-height: 120%;
