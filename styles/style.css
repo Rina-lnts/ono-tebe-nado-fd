@@ -276,8 +276,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  justify-self: center;   
-  align-self: center;     
+  justify-self: center; 
+  align-self: center;
   margin-bottom: 60%;
 }
 
